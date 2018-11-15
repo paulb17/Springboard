@@ -19,7 +19,6 @@ Machine Learning algorithms were used to create a loan classification model for 
 
 
 ## Exploratory Data Analysis' (EDA)
-----------------------------------------------------------------------------------------------------------------------------------
 
 ### [Hospital Readmittance Data](https://github.com/paulb17/Springboard/blob/master/EDA%20Mini%20Projects/EDA%20hospital%20readmit/Hospital%20Readmissions.ipynb)
 Hospital Readmittance performs a statistical analysis on a previously done analysis to critique its validity.
@@ -46,17 +45,17 @@ Racial Discrimination performs a statistical analysis on if race has a meaningfu
 Regression Price Estimate on Boston Housing data using Linear Regression
 
 ### [Logistic Regression](https://github.com/paulb17/Springboard/blob/master/Machine%20Learning/logistic_regression/Mini_Project_Logistic_Regression.ipynb)
-Mini classification project labeling an obersvation as either male or female based on height and weight data (Logistic Regression)
+Mini classification project labeling an observation as either male or female based on height and weight data (Logistic Regression)
 
 ### [Naive Bayes](https://github.com/paulb17/Springboard/blob/master/Machine%20Learning/naive_bayes/Mini_Project_Naive_Bayes.ipynb)
-Predicting Rotten tomato movie reviews using Naive Bayes Models
+Predicting Rotten Tomato movie reviews using Naive Bayes Models
 
 **Key Skills**
 * Logistic Regression
 * Linear Regression
 * Naive Bayes
 
-## Data Wrangling with JSON
+## Data Wrangling
 
 ### [JSON Exercise](https://github.com/paulb17/Springboard/blob/master/JSON%20Based%20Data%20Exercise/JSON_Exercise.ipynb)
 An exercise of data extraction and exploration utilizing a JSON data source containing information on world bank projects in various countries. 
@@ -64,9 +63,10 @@ An exercise of data extraction and exploration utilizing a JSON data source cont
 ### [API Mini Project](https://github.com/paulb17/Springboard/blob/master/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
 An exercise extracting JSON data using the Quandtl API.
 
+### [SQL Mini Project](http://localhost:8889/edit/SQL%20Exercise/1520094343_sql_project.sql)
+A mini project using SQL queries to extract information from a country club database. 
+
 **Key Skills**
 * JSON Manipulation
 * API data extraction
-
-## [SQL](http://localhost:8889/edit/SQL%20Exercise/1520094343_sql_project.sql)
-A mini project using SQL queries to extract information from a country club database. 
+* SQL queries
