@@ -15,7 +15,7 @@ Machine Learning algorithms were used to create a loan classification model for 
 * Data Wrangling
 * Data Visualization
 * Inferential Statistics
-
+* Machine Learning
 
 
 ## Exploratory Data Analysis' (EDA)
@@ -30,14 +30,16 @@ Human Temperature EDA uses bootstrap statistics to determine the true average te
 Racial Discrimination performs a statistical analysis on if race has a meaningful impact on the callback rate of candidates who have submitted resumes to jobs of interest.
 
 **Key Skills**
-* Central Limit Theorem
-* Statistical Analysis
+* Inferential Statistics
+    * Central Limit Theorem
+    * Statistical Analysis
+    * z-test
+    * t-test
+    * Margin of Error (MOE)
+    * Chi-Squared Test
+    * Bootstrap Statistics
+* Descriptive Statistics
 * Data Visualization
-* z-test
-* t-test
-* Margin of Error (MOE)
-* Chi-Squared Test
-* Bootstrap Statistics
 
 
 ## Machine Learning Algorithms
@@ -50,10 +52,14 @@ Mini classification project labeling an observation as either male or female bas
 ### [Naive Bayes](https://github.com/paulb17/Springboard/blob/master/Machine%20Learning/naive_bayes/Mini_Project_Naive_Bayes.ipynb)
 Predicting Rotten Tomato movie reviews using Naive Bayes Models
 
+### [Clustering](https://github.com/paulb17/Springboard/blob/master/Machine%20Learning/clustering/Mini_Project_Clustering.ipynb)
+Implmenting a variety of clustering models in order to segment customers based on their response to e-mail offers and their transactional data. 
+
 **Key Skills**
 * Logistic Regression
 * Linear Regression
 * Naive Bayes
+* Clustering
 
 ## Data Wrangling
 
