@@ -1,6 +1,6 @@
 # Springboard Projects
 
-This repository consists of all code, data and files related to my work in Springboard's Data Science Immersive Program. The contemts along with descriptions and appropriate links are provided below:
+This repository consists of all code, data and files related to my work in Springboard's Data Science Immersive Program. The contents along with descriptions and appropriate links are provided below:
 
 ## Capstone Project 1
 
@@ -9,7 +9,7 @@ This repository consists of all code, data and files related to my work in Sprin
 Machine Learning algorithms were used to create a loan classification model for conservative investors using data from the Lending Club website. Prior to developing the model, the data obtained was cleaned and explored. The work was completed in three notebooks:
 * [Data Wrangling Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Wrangling%20.ipynb)
 * [Data Exploration Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Exploration.ipynb)
-* [Machine Learning Notebook]()
+* [Machine Learning Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Modeling.ipynb)
 
 **Key Skills:**
 * Data Wrangling
