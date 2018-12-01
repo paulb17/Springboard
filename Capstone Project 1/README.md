@@ -36,19 +36,19 @@ In this notebook raw Ledning Club data was cleaned to remove information an inve
 In this notebook a few important metrics for investing were investigated using inferential and descriptive statistics.
 
 ### Fiar Isaac Corporation (FICO) Scores
-![title](README_images\"FICO Score Analysis.png")
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/FICO%20Score%20Analysis.png)
 
 It was found that borrowers that default have lower average FICO scores than those that fully pay off their loans. In addition, a Spearman's rank correlation test led to the conclusion that borrowers with higher FICO scores are less likely to default. Based on ratings from the FICO website, Lending Club borrowers have FICO scores that can be categorized as good, very good and exceptional. 
 
 ### Age of Oldest Credit Account 
-![title](README_images\Credit_history.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/Credit_history.png)
 
 Although a positive association was found between FICO scores and the age of a borrower's oldest credit account, it was noted that default risk did not generally decrease as the age of oldest credit account increased. This was mainly as a result of the borrowers in the 500-600 months oldest credit account category that loaned money for home improvement. 
 
 Further investigation revealed that most borrowers who loan money for home imporovements have mortgages. However, a chi-square test led to the conclusion that borrowers with mortgages are less likely to default than borrowers without mortgages.  
 
 ### Employment History, Annual Income and Loan Amount
-![title](README_images\Inc_emp_loan.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/Inc_emp_loan.png)
 
 FICO score models do not make use of employment or annual income in computing a borrowers credit score as they have found it is not a good predictor of future credit performance. In line with the findings of FICO, Spearman's rank correlation test indicated that there's no association between the employment length and default rate of borrowers in the Lending Club marketplace.  
 
@@ -57,8 +57,8 @@ However, with the exception of annual incomes in the $350,000 - $400,000, it was
 Finally, it was found that as the loan amount requested increased, the default rate also increased. 
 
 
-### Usefulness of Categorized Employer data and subgrade data
-![title](README_images\emp_grade.png)
+### Usefulness of categorized employer data and subgrade data
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/emp_grade.png)
 
 In the uncleaned Lending Club Dataset borrowers provided their employer title. As the responses borrowers provided were not selected from a categorized list, cleaning the employer title column will take considerable time. In order to avoid spending a lot of time and evaluate the usefulness of categorized employer titles, approximately 15% of the employer title column was categorized. It was found that 3 of the 8 employer categories have statistically different default rates relative to the rest of the population. Given this result, it will likely be beneficial to fully categorize the employment title column as it could provide useful insights to investors.
 
@@ -68,30 +68,30 @@ For grades A, B, C and D, the default risk generally increased as the sub-grades
 In this notebook, a variety of machine learning algorithms were used to try and cluster and model the data.
 
 ### Clustering 
-![title](README_images\clustering.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/clustering.png)
 
 K-Means clustering was used as a means of gaining insights into whether customer segments existed. To determine the optimal number of clusters we attempted using the elbow method; however, no clear elbow was observed. Accordingly, the silhouette method was used and the optimal number of clusters was found to be 2. Further investigation into the features of both clusters revealed no significant differences worth investigating.
 
 ### Parameter Tuning and Model Comparison
-![title](README_images\model_tuning.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/model_tuning.png)
 
 The logistic regression, random forest and kernel SVM classifiers were tuned via grid and/or random searches. Given the imbalanced nature of the loan data, area under the receiver operating characteristic (AUROC) appeared to be the appropriate score to use to compare each model. Upon completion of tuning, the logistic regression model was found to have the best AUROC score of 0.696
 
 ### PCA on Logistic Regression Model
-![title](README_images\PCA.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/PCA.png)
 
 In order to try and improve the AUROC of the hold-out set, the logistic regression model was implemented while varying the number of principal components used. The following was found during the investigation: 
 * 71 of the 78 components account for a 100% of the explained variance in the features
 * The AUROC of the hold-out set appears to increase as the number of principal components increases with the exception of a dip between 30 and 50 principal components. 
 
 ### Boosting and Blending Ensemble methods
-![title](README_images\ensemble)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/ensemble.png)
 
 To try and improve the AUROC on the hold-out set, XGBoost and a voting classifier were tesred. The voting classifier was composed of an XGBoost classifier and the optimal logistic regression model. The XGBoost classifier had a hold-out set AUROC of 0.706, while the voting classifier had a hold-out set AUROC of 0.705. It was noted that the XGBoost classifier was better at identifying true postives (fully paid loans) while the voting classifier was better at identifying true negatives (charged off loans). 
 
 
 ### Conclusion
-![title](README_images\conclusion)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/clustering.png)
 
 The primary goal of this project was to develop loan classification models for the conservative investor. To illustrate how to use the models, it will be assumed the conservative investor is only willing to accept a default risk of ~5%. To this end, the penalty parameters of the three best models were tweaked till the predictions of fully paid loans in the hold-out set had a default risk of about 5%.  
 
