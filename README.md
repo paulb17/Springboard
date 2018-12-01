@@ -15,7 +15,7 @@ Machine Learning algorithms were used to create a loan classification model for 
 * Data Wrangling
 * Data Visualization
 * Inferential Statistics
-* Machine Learning
+* Machine Learning (Logistic Regression, Kernel SVM, Random Forest, XGBoost)
 
 
 ## Exploratory Data Analysis' (EDA)
@@ -56,10 +56,15 @@ Predicting Rotten Tomato movie reviews using Naive Bayes Models
 Implmenting a variety of clustering models in order to segment customers based on their response to e-mail offers and their transactional data. 
 
 **Key Skills**
-* Logistic Regression
-* Linear Regression
+* Logistic Regression 
+* Linear Regression (using sklearn and statsmodel)
 * Naive Bayes
 * Clustering
+    * K-Means clustering (Elbow and Silhouette methods)
+    * Hierarchical clustering
+    * DBSCAN
+    * Affinity propagation
+    * Visualizing clusters using principal components
 
 ## Data Wrangling
 

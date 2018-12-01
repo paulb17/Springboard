@@ -60,7 +60,7 @@ Finally, it was found that as the loan amount requested increased, the default r
 ### Usefulness of categorized employer data and subgrade data
 ![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/emp_grade.png)
 
-In the uncleaned Lending Club Dataset borrowers provided their employer title. As the responses borrowers provided were not selected from a categorized list, cleaning the employer title column will take considerable time. In order to avoid spending a lot of time and evaluate the usefulness of categorized employer titles, approximately 15% of the employer title column was categorized. It was found that 3 of the 8 employer categories have statistically different default rates relative to the rest of the population. Given this result, it will likely be beneficial to fully categorize the employment title column as it could provide useful insights to investors.
+In the uncleaned Lending Club Dataset borrowers provided their employer title. The responses borrowers provided were not selected from a categorized list, and would therefore take a significant amount of time to clean. In order to  evaluate the usefulness of categorizing the employer titles without spending too much time, approximately 15% of the responses provided were categorized. Using t-tests, it was found that 3 of the 8 employer categories have statistically different default rates relative to the rest of the population. Given this result, it will likely be beneficial to fully categorize the employment title column as it could provide useful insights to investors.
 
 For grades A, B, C and D, the default risk generally increased as the sub-grades increased. For grades D, E and F there appeared to be some randomness in the variation of default risk with sub-grade. Overall, the sub-grade column appears to offer useful insights to investors particularly for the lower risk grades. 
 
@@ -70,7 +70,7 @@ In this notebook, a variety of machine learning algorithms were used to try and 
 ### Clustering 
 ![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/clustering.png)
 
-K-Means clustering was used as a means of gaining insights into whether customer segments existed. To determine the optimal number of clusters we attempted using the elbow method; however, no clear elbow was observed. Accordingly, the silhouette method was used and the optimal number of clusters was found to be 2. Further investigation into the features of both clusters revealed no significant differences worth investigating.
+K-Means clustering was used to investigate whether customer segments existed. To determine the optimal number of clusters I attempted using the elbow method; however, no clear elbow was observed. Accordingly, the silhouette method was used and the optimal number of clusters was found to be 2. Further investigation into the features of both clusters revealed no significant differences worth investigating.
 
 ### Parameter Tuning and Model Comparison
 ![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/model_tuning.png)
@@ -91,7 +91,7 @@ To try and improve the AUROC on the hold-out set, XGBoost and a voting classifie
 
 
 ### Conclusion
-![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/clustering.png)
+![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/conclusion.png)
 
 The primary goal of this project was to develop loan classification models for the conservative investor. To illustrate how to use the models, it will be assumed the conservative investor is only willing to accept a default risk of ~5%. To this end, the penalty parameters of the three best models were tweaked till the predictions of fully paid loans in the hold-out set had a default risk of about 5%.  
 
