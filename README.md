@@ -11,8 +11,8 @@ Machine Learning algorithms were used to create a loan classification model for 
 
 **Key Skills:**
 * Data Wrangling using Pandas
-* Data Visualization using seaborn and matplotlib
-* Inferential Statistics using scipy
+* Data Visualization using seaborn and Matplotlib
+* Inferential Statistics using SciPy
     * Hypothesis testing: t-test, Chi-square test and Spearman's rank correlation test
 * Machine Learning using sickit-learn
     * Algorithms: Logistic Regression, Kernel SVC, Random Forest Classifier, XGBoost, Voting Classifier and K-means clustering
@@ -30,7 +30,7 @@ Human Temperature EDA uses bootstrap statistics to determine the true average te
 Racial Discrimination performs a statistical analysis on if race has a meaningful impact on the callback rate of candidates who have submitted resumes to jobs of interest.
 
 **Key Skills**
-* Inferential Statistics using scipy
+* Inferential Statistics using SciPy
     * Central Limit Theorem
     * Pearson's correlation test
     * z-test
@@ -39,7 +39,7 @@ Racial Discrimination performs a statistical analysis on if race has a meaningfu
     * Chi-Squared Test
     * Bootstrap Statistics
 * Descriptive Statistics
-* Data Visualization using matplotlib
+* Data Visualization using Matplotlib
 
 
 ## Machine Learning Algorithms
@@ -57,7 +57,7 @@ Implmenting a variety of clustering models in order to segment customers based o
 
 **Key Skills**
 * Logistic Regression using sickit-learn
-* Linear Regression using sickit-learn and statsmodel
+* Linear Regression using sickit-learn and StatsModels
 * Naive Bayes using sickit-learn
 * Clustering using sickit-learn
     * K-Means clustering (Elbow and Silhouette methods)
