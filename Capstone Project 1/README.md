@@ -39,12 +39,12 @@ In this notebook a few important metrics for investing were investigated using i
 ### Fiar Isaac Corporation (FICO) Scores
 ![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/FICO%20Score%20Analysis.png)
 
-Results of a t-test indictated that on average, borrowers that default have lower FICO scores than those that fully pay off their loans (p = .00027). In addition, a Spearman's rank correlation test led to the conclusion that borrowers with higher FICO scores are less likely to default ($\rho$ = -1.0, p <.0001). Based on ratings from the FICO website, Lending Club borrowers have FICO scores that can be categorized as good, very good and exceptional. 
+Results of a t-test indictated that on average, borrowers that default have lower FICO scores than those that fully pay off their loans (p = .00027). In addition, a Spearman's rank correlation test led to the conclusion that borrowers with higher FICO scores are less likely to default (&rho; = -1.0, p <.0001). Based on ratings from the FICO website, Lending Club borrowers have FICO scores that can be categorized as good, very good and exceptional. 
 
 ### Age of Oldest Credit Account 
 ![title](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README_images%20/Credit_history.png)
 
-Although a positive association was found between FICO scores and the age of a borrower's oldest credit account ($\rho$ = .92, p = .00086), it was noted that default risk did not generally decrease as the age of oldest credit account increased. This was mainly as a result of the significantly larger proportion of borrowers in the 500-600 months oldest credit account category that loaned money for home improvement (p = .002). 
+Although a positive association was found between FICO scores and the age of a borrower's oldest credit account (&rho; = .92, p = .00086), it was noted that default risk did not generally decrease as the age of oldest credit account increased. This was mainly as a result of the significantly larger proportion of borrowers in the 500-600 months oldest credit account category that loaned money for home improvement (p = .002). 
 
 Further investigation revealed that most borrowers who loan money for home imporovements have mortgages. However, a chi-square test led to the conclusion that borrowers with mortgages are less likely to default than borrowers without mortgages (p < .0001).  
 
@@ -63,7 +63,7 @@ Finally, it was found that as the loan amount requested increased, the default r
 
 In the uncleaned Lending Club Dataset borrowers provided their employer title. The responses borrowers provided were not selected from a categorized list, and would therefore take a significant amount of time to clean. In order to  evaluate the usefulness of categorizing the employer titles without spending too much time, approximately 15% of the responses provided were categorized. For each category, a t-test was performed comparing the default rate of borrowers within the category to all borrowers outside the category. Using the Bonferroni correction to account for the multiple testing, it was found that 2 of the 8 employer categories have significantly different default rates relative to borrowers outside the category. These categories included borrowers that provided no responses and borrowers that work in educationalor research institutions. Given this result, it will likely be beneficial to fully categorize the employer data as it could provide useful insights to investors.
 
-For grades A, B, C and D, the default risk generally increased as the sub-grades increased. For grades D, E and F there appeared to be some randomness in the variation of default risk with sub-grade. Spearman's rank correlation test suggests that there is a positive association between sub grades and default rate of borrowers ($\rho$ = 0.96, p <.0001). Accordingly, it was concluded that the sub-grade column offers useful insights to investors. 
+For grades A, B, C and D, the default risk generally increased as the sub-grades increased. For grades D, E and F there appeared to be some randomness in the variation of default risk with sub-grade. Spearman's rank correlation test suggests that there is a positive association between sub grades and default rate of borrowers (&rho; = .96, p <.0001). Accordingly, it was concluded that the sub-grade column offers useful insights to investors. 
 
 ## [Data Modeling Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Modeling.ipynb)
 In this notebook, a variety of machine learning algorithms were used to try and cluster and model the data.
@@ -80,7 +80,7 @@ The Lending Club data was divided into a training and a hold-out set that were 7
 
 * Logistic Regression: regularization parameter (C) and the penalty parameter (class_weight)
 * Random Forest Classifier: class_weight, max_features, min_samples_split, min_samples_leaf, n_estimators, bootstrap and criterion
-* Kernel SVM (SVC): class_weight, gamma, C
+* Kernel SVM (SVC): class_weight, gamma and C
 
 Given the imbalanced nature of the loan data, area under the receiver operating characteristic (AUROC) appeared to be the appropriate score to use to compare each model. Upon completion of tuning, the logistic regression model was found to have the best AUROC score of 0.696
 
