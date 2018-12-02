@@ -4,18 +4,18 @@ This repository consists of all code, data and files related to my work in Sprin
 
 ## Capstone Project 1
 
-### Machine Powered Investing in Lending Club
+### [Machine Powered Investing in Lending Club](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README.md#machine-powered-investing-in-lending-club)
+
 **Description:**
-Machine Learning algorithms were used to create a loan classification model for conservative investors using data from the Lending Club website. Prior to developing the model, the data obtained was cleaned and explored. The work was completed in three notebooks:
-* [Data Wrangling Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Wrangling%20.ipynb)
-* [Data Exploration Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Exploration.ipynb)
-* [Machine Learning Notebook](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/Data_Modeling.ipynb)
+Machine Learning algorithms were used to create a loan classification model for conservative investors using data from the Lending Club website. Prior to developing the model, the data obtained was cleaned and explored. 
 
 **Key Skills:**
-* Data Wrangling
-* Data Visualization
-* Inferential Statistics
-* Machine Learning (Logistic Regression, Kernel SVM, Random Forest, XGBoost)
+* Data Wrangling using Pandas
+* Data Visualization using seaborn and matplotlib
+* Inferential Statistics using scipy
+    * Hypothesis testing: t-test, Chi-square test and Spearman's rank correlation test
+* Machine Learning using sickit-learn
+    * Algorithms: Logistic Regression, Kernel SVC, Random Forest Classifier, XGBoost, Voting Classifier and K-means clustering
 
 
 ## Exploratory Data Analysis' (EDA)
@@ -30,16 +30,16 @@ Human Temperature EDA uses bootstrap statistics to determine the true average te
 Racial Discrimination performs a statistical analysis on if race has a meaningful impact on the callback rate of candidates who have submitted resumes to jobs of interest.
 
 **Key Skills**
-* Inferential Statistics
+* Inferential Statistics using scipy
     * Central Limit Theorem
-    * Statistical Analysis
+    * Pearson's correlation test
     * z-test
     * t-test
     * Margin of Error (MOE)
     * Chi-Squared Test
     * Bootstrap Statistics
 * Descriptive Statistics
-* Data Visualization
+* Data Visualization using matplotlib
 
 
 ## Machine Learning Algorithms
@@ -56,10 +56,10 @@ Predicting Rotten Tomato movie reviews using Naive Bayes Models
 Implmenting a variety of clustering models in order to segment customers based on their response to e-mail offers and their transactional data. 
 
 **Key Skills**
-* Logistic Regression 
-* Linear Regression (using sklearn and statsmodel)
-* Naive Bayes
-* Clustering
+* Logistic Regression using sickit-learn
+* Linear Regression using sickit-learn and statsmodel
+* Naive Bayes using sickit-learn
+* Clustering using sickit-learn
     * K-Means clustering (Elbow and Silhouette methods)
     * Hierarchical clustering
     * DBSCAN
