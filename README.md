@@ -2,9 +2,9 @@
 
 This repository consists of all code, data and files related to my work in Springboard's Data Science Immersive Program. The contents along with descriptions and appropriate links are provided below:
 
-## Capstone Project 1
+## Capstone Project 
 
-### [Machine Powered Investing in Lending Club](https://github.com/paulb17/Springboard/blob/master/Capstone%20Project%201/README.md#machine-powered-investing-in-lending-club)
+### [Machine Powered Investing in Lending Club](https://github.com/paulb17/Machine-Powered-Investing-in-Lending-Club/blob/master/README.md)
 
 **Description:**
 Machine Learning algorithms were used to create a loan classification model for conservative investors using data from the Lending Club website. Prior to developing the model, the data obtained was cleaned and explored. 
