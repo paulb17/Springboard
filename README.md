@@ -56,10 +56,10 @@ Predicting Rotten Tomato movie reviews using Naive Bayes Models
 Implmenting a variety of clustering models in order to segment customers based on their response to e-mail offers and their transactional data. 
 
 **Key Skills**
-* Logistic Regression using sickit-learn
-* Linear Regression using sickit-learn and StatsModels
-* Naive Bayes using sickit-learn
-* Clustering using sickit-learn
+* Logistic Regression using scikit-learn
+* Linear Regression using scikit-learn and StatsModels
+* Naive Bayes using scikit-learn
+* Clustering using scikit-learn
     * K-Means clustering (Elbow and Silhouette methods)
     * Hierarchical clustering
     * DBSCAN
