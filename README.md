@@ -14,7 +14,7 @@ Machine Learning algorithms were used to create a loan classification model for 
 * Data Visualization using seaborn and Matplotlib
 * Inferential Statistics using SciPy
     * Hypothesis testing: t-test, Chi-square test and Spearman's rank correlation test
-* Machine Learning using sickit-learn
+* Machine Learning using scikit-learn
     * Algorithms: Logistic Regression, Kernel SVC, Random Forest Classifier, XGBoost, Voting Classifier and K-means clustering
 
 
