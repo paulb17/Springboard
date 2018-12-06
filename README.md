@@ -74,10 +74,10 @@ An exercise of data extraction and exploration utilizing a JSON data source cont
 ### [API Mini Project](https://github.com/paulb17/Springboard/blob/master/API%20Mini%20Project/api_data_wrangling_mini_project.ipynb)
 An exercise extracting JSON data using the Quandtl API.
 
-### [SQL Mini Project](http://localhost:8889/edit/SQL%20Exercise/1520094343_sql_project.sql)
+### [SQL Mini Project](https://github.com/paulb17/Springboard/blob/master/SQL%20Exercise/Country%20Club.ipynb)
 A mini project using SQL queries to extract information from a country club database. 
 
 **Key Skills**
 * JSON Manipulation
 * API data extraction
-* SQL queries
+* SQL queries using SQLAlchemy
